@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -60,6 +61,19 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+    }
+
+    public static void task5(){
+        System.out.println("Задача 5");
+        var frog = 3.5;
+        System.out.println("Значение frog:" + frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
     }
 
 }
