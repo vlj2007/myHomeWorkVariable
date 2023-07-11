@@ -7,32 +7,33 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1(){
         System.out.println("Задача 1");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        System.out.println("Значение dog:" + dog);
-        System.out.println("Значение cat:" + cat);
-        System.out.println("Значение paper:" + paper);
+        System.out.println("Значение dog: " + dog);
+        System.out.println("Значение cat: " + cat);
+        System.out.println("Значение paper: " + paper);
     }
     public static void task2(){
         System.out.println("Задача 2");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        System.out.println("Значение dog:" + dog);
+        System.out.println("Значение dog: " + dog);
         dog = dog + 4;
-        System.out.println("Увеличим значение на 4 dog:" + dog);
+        System.out.println("Увеличим значение на 4 dog: " + dog);
 
         System.out.println("Значение cat:" + cat);
         cat = cat + 4;
-        System.out.println("Увеличим значение на 4 cat:" + cat);
+        System.out.println("Увеличим значение на 4 cat: " + cat);
 
         System.out.println("Значение paper:" + paper);
         paper = paper + 4;
-        System.out.println("Увеличим значение на 4 cat:" + paper);
+        System.out.println("Увеличим значение на 4 cat: " + paper);
 
     }
 
@@ -41,17 +42,17 @@ public class Main {
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        System.out.println("Значение dog:" + dog);
+        System.out.println("Значение dog: " + dog);
         dog = dog - 3.5;
-        System.out.println("Уменшение значение на 5,5 dog:" + dog);
+        System.out.println("Уменшение значение на 5,5 dog: " + dog);
 
-        System.out.println("Значение cat:" + cat);
+        System.out.println("Значение cat: " + cat);
         cat = cat - 1.6;
-        System.out.println("Уменшение значение на 1.6 cat:" + cat);
+        System.out.println("Уменшение значение на 1.6 cat: " + cat);
 
         System.out.println("Значение paper:" + paper);
         paper = paper - 7639;
-        System.out.println("Уменшение значение на 7639 cat:" + paper);
+        System.out.println("Уменшение значение на 7639 cat: " + paper);
 
     }
 
@@ -75,7 +76,6 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-
     }
 
     public static void task6(){
@@ -106,7 +106,20 @@ public class Main {
         System.out.println(" С помощь функции остаток от деления.");
         var remainderDivision = secondBoxer % firstBoxer;
         System.out.println(remainderDivision);
+    }
 
+    public static void task8(){
+        System.out.println("Задача 8");
+        var totalHours = 640;
+        System.out.println("Всего часов " + totalHours);
+        var everyEmployee = 8;
+        System.out.println("Часов на одного сотрудника " + everyEmployee);
+        var totalEmployees =  totalHours / everyEmployee;
+        System.out.println("Всего работников в компании — " + totalEmployees + " человек.");
+        var peopleMore = 94;
+        var allPeople = totalEmployees + peopleMore;
+        var resultTask = allPeople * 8;
+        System.out.println("Если в компании работает " + allPeople + " человек, то всего " + resultTask + " часов работы может быть поделено между сотрудниками");
     }
 
 }
