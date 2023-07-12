@@ -24,15 +24,15 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
         System.out.println("Значение dog: " + dog);
-        dog = dog + 4;
+        dog += 4;
         System.out.println("Увеличим значение на 4 dog: " + dog);
 
         System.out.println("Значение cat:" + cat);
-        cat = cat + 4;
+        cat += 4;
         System.out.println("Увеличим значение на 4 cat: " + cat);
 
         System.out.println("Значение paper:" + paper);
-        paper = paper + 4;
+        paper += 4;
         System.out.println("Увеличим значение на 4 cat: " + paper);
 
     }
@@ -43,15 +43,15 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
         System.out.println("Значение dog: " + dog);
-        dog = dog - 3.5;
+        dog -= 3.5;
         System.out.println("Уменшение значение на 5,5 dog: " + dog);
 
         System.out.println("Значение cat: " + cat);
-        cat = cat - 1.6;
+        cat -= 1.6;
         System.out.println("Уменшение значение на 1.6 cat: " + cat);
 
         System.out.println("Значение paper:" + paper);
-        paper = paper - 7639;
+        paper -= 7639;
         System.out.println("Уменшение значение на 7639 cat: " + paper);
 
     }
@@ -60,9 +60,9 @@ public class Main {
         System.out.println("Задача 4");
         var friend = 19;
         System.out.println("Значение friend:" + friend);
-        friend = friend * 2;
+        friend *= 2;
         System.out.println(friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println(friend);
     }
 
@@ -70,11 +70,11 @@ public class Main {
         System.out.println("Задача 5");
         var frog = 3.5;
         System.out.println("Значение frog:" + frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println(frog);
     }
 
